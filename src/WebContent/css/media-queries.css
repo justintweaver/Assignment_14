@@ -1,7 +1,7 @@
 /************************************************************************************
-smaller than 980
+smaller than 1250
 *************************************************************************************/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1250px) {
 
 	/* pagewrap */
 	#pagewrap {
@@ -27,17 +27,17 @@ smaller than 980
 	.video embed,
 	.video object,
 	.video iframe {
-		width: 100%;
-		height: auto;
+		width: 100%; 
+		height: auto; 
 		min-height: 300px;
 	}
 
 }
 
 /************************************************************************************
-smaller than 650
+smaller than 980
 *************************************************************************************/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 980px) {
 
 	/* header */
 	#header {
@@ -85,6 +85,11 @@ smaller than 650
 
 	/* sidebar */
 	#sidebar {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	#sidebarLeft {
 		width: 100%;
 		margin: 0;
 		float: none;
